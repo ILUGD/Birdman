@@ -39,6 +39,7 @@ If talks are not decided the CFP email to the mailing list and twitter will look
   Would you like to edit this ? (y/n):
 ```
 A copy of the meetup.txt file would be send through the Telegram Bot to any admin for approval.
+
 ## Extras 
 To create a new meetup page -
 ```
@@ -58,6 +59,7 @@ $ birdman --new-meetup
   Send CFP ?(y/n):
   Awaiting admin response.. Exiting.
 ```
+Skip the questions by selecting valid flags like birdman --venue --talks wouldnt ask you if venue and talks were decided
 ## Contributing 
 ### Folder Structure
 - The API folder contains everything we need to build a REST-API for the frontend CLI to communicate with. 
