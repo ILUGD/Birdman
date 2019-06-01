@@ -2,6 +2,13 @@
 ## About
 'Birdman NotASPAMbox' is an  automated mail and social media publishing command line interface.
 
+## Checklist
+1. [ ] Created the frontend CLI.
+2. [ ] Connected frontend to the REST API
+3. [ ] Connect Twitter API to REST API
+4. [ ] Connect Telegram API to REST API
+5. [ ] Connect SMTP Lib to REST API
+
 ## Tech Stack
 1. Python 3.7
 2. Django REST Framework
