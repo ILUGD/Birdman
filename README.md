@@ -7,14 +7,16 @@
 2. [ ] Connected frontend to the REST API
 3. [ ] Connect Twitter API to REST API
 4. [ ] Connect Telegram API to REST API
-5. [ ] Connect SMTP Lib to REST API
+5. [ ] Connect SMTP Lib to REST API (for mailing list)
+6. [ ] Connect Github API to REST API (for github bot) 
 
 ## Tech Stack
 1. Python 3.7
 2. Django REST Framework
 3. PostgreSQL
-4. Telegram,Twitter bot API
-5. smtplib
+4. Meetup API
+5. Telegram,Twitter,Github bot API
+6. smtplib
 
 ## Working
 Birdman works by  asking the user for relevant data for publishing for eg. meetup link, poster link, meetup theme, talks etc. and outputs it as a template and shares the  output to all social media networks wherever required.
@@ -36,7 +38,8 @@ A sample Output will look like this:
 
   Would you like to edit this ? (y/n)
 ```
-If talks are not decided the CFP email to the mailing list and twitter will look like this
+If talks are not decided the CFP email to the mailing list and twitter will look like this.
+Issues labeled as not delivered will also be pingd using the Github API
 ```
   
   Processing ↑ saving to .birdman/<date>/meetup.txt
