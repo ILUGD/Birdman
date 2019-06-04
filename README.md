@@ -20,7 +20,7 @@
 
 ## Working
 Birdman works by  asking the user for relevant data for publishing for eg. meetup link, poster link, meetup theme, talks etc. and outputs it as a template and shares the  output to all social media networks wherever required.
-<img src="https://i.imgur.com/a7cRjSxl.jpg">
+<img src="http://0x0.st/zMIG.jpg">
 ```
   $ birdman 
   Venue Decided(y/n):
